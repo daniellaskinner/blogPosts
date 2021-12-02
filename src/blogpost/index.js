@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Blogpost = (props) => {
-  return <div className="ui container comments">
+  return <div>
     <div className="comment">
       <a href="/" className="avatar">
         <img src={props.avatar} alt="avatar"/>

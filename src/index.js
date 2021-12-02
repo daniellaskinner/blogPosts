@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Blogposts from './blogposts'
+import Blog from './Blog'
 
 const App = () => {
   return <div>
     <h1 className="First header">CodeBlog</h1>
-    <Blogposts/>
+    <Blog/>
   </div>
 }
 
