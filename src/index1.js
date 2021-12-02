@@ -16,6 +16,7 @@ const App = () => {
             <button style={{ backgroundColor: 'blue', color: 'white' }}>
                 {buttonText}
             </button>
+          <img src="https://www.clipartmax.com/png/small/223-2230030_teenage-mutant-ninja-turtle-pizza-clip-art-clipart-teenage-mutant-ninja-turtles.png" alt="avatar"/>
         </div>
     );
 };
