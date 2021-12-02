@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const App = () => {
+  return <div className="ui container comments">
+    <div className="comment">
+      <a href="/" className="avatar">
+        <img src="https://www.clipartmax.com/png/small/223-2230030_teenage-mutant-ninja-turtle-pizza-clip-art-clipart-teenage-mutant-ninja-turtles.png" alt="avatar"/>
+      </a>
+      <div className="content">
+        <a href="/" className="author">
+          ninja turtle fan
+        </a>
+        <div className="metadata">
+          <span className="date">Today at 6pm</span>
+        </div>
+        <div className="text">My first react app!</div>
+      </div>
+    </div>
+  </div>
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App/>, document.querySelector('#root'))
